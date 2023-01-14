@@ -1,46 +1,45 @@
-
-
-
 /* font styles */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
 
-body{
+body {
     font-family: 'Poppins', sans-serif;
-    background-color:#F3F1FF;
+    background-color: #F3F1FF;
 }
 
-*{
+* {
     margin: 0;
 }
 
 /* body styles */
 
 
-main{
+main {
     display: flex;
-    justify-content: center;
     padding-top: 20px;
+    flex-direction: column;
+    align-items: center;
 }
 
-.main-section-one{
+.main-section-one {
     flex-direction: column;
     background-color: #FFFFFF;
+    border-radius: 5px;
     width: 870px;
+    margin-bottom: 40px;
 }
 
 /* top players styles */
 
-.main-section-one h2{
+.main-section-one h2 {
     padding-left: 33px;
-    padding-top: 33px;
     padding-bottom: 40px;
     color: #562EFF;
     font-weight: 500;
     font-size: 24px;
 }
 
-.players{
+.players {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
@@ -48,20 +47,167 @@ main{
     padding-left: 20px;
 }
 
-.player img{
+.player img {
     height: 56px;
     width: 56px;
 }
 
-.player{
+.player {
     display: flex;
     align-items: center;
-    gap:18px;
+    gap: 18px;
     padding-bottom: 30px;
 }
 
 /* line no 1 */
-hr{
+hr {
     border: 1px solid #D1D1D1;
     margin: 0 30px;
+    /* margin-bottom: 30px; */
+}
+
+/*-------------------------------- blog styles---------------------- */
+
+
+.top {
+    padding-left: 33px;
+    padding-top: 23px;
+    padding-bottom: 20px;
+    color: #562EFF;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.blog .thumbnail img {
+    width: 177px;
+    height: 117px;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.blog {
+    display: flex;
+    padding-left: 30px;
+}
+
+.blog-title {
+    margin: 16px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.blog-owner {
+    font-weight: 400;
+    font-size: 16px;
+    color: #9F9F9F;
+    padding-top: 6px;
+}
+
+.blog-owner a {
+    color: #562EFF;
+    text-decoration: none;
+}
+
+.top-blogs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 26px;
+}
+
+/*---------------Main section one second part----------------- */
+
+.section-title {
+    padding-left: 33px;
+    padding-top: 23px;
+    color: #562EFF;
+    font-weight: 500;
+    font-size: 24px;
+    text-align: start;
+}
+
+
+/*---------------- Latest courses of mine ------------------------------*/
+.react img {
+    width: 224px;
+    height: 104px;
+    padding: 15px;
+}
+
+.react {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.react-div-one {
+    border-radius: 5px;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 253px;
+    height: 280px;
+    padding-top: 0px;
+    background: rgb(253, 252, 252);
+    margin-bottom: 50px;
+}
+
+.course-description {
+    padding-left: 15px;
+}
+
+.react {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+}
+
+.blog-title {
+    font-weight: 500;
+    font-size: 20.0336px
+}
+
+.fa-star{
+    font-size: 12px;
+}
+
+.fa-star.full{
+    color: #FFC014;
+}
+
+.fa-star.empty{
+    color: #AEAEAE;
+}
+
+.icon{
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Navigation bar styles */
+
+a{
+    text-decoration: none;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:16px 310px;
+
+}
+
+.image3{
+    height: 30px;
+    width: 30px;
+    padding: 0 16px;
+}
+
+header{
+    background: #562EFF;
+}
+nav div a{
+    padding-left: 16px;
+    padding-bottom: 36px;
 }
